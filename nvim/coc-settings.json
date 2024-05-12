@@ -1,0 +1,16 @@
+{
+  "suggest.noselect": false,
+  "coc.preferences.formatOnSaveFiletypes": [
+      "csharp",
+  ],
+  "languageserver": {
+    "csharp": {
+      "command": "csharp-ls",
+      "rootPatterns": [
+        "*.sln",
+        "git"
+      ],
+      "filetypes": ["cs", "csharp"]
+    },
+  }
+}
